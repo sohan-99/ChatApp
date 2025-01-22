@@ -1,9 +1,7 @@
-// import React from 'react'
-
-function Right() {
+export default function Right() {
   return (
-    <div>Right</div>
-  )
+    <>
+      <div className="w-[70%]   bg-slate-950 text-white">Right</div>
+    </>
+  );
 }
-
-export default Right
